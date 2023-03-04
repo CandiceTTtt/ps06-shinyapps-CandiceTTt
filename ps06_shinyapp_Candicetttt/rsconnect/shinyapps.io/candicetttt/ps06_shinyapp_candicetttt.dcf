@@ -5,9 +5,9 @@ account: candicetttt
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8448322
-bundleId: 6913773
+bundleId: 6916303
 url: https://candicetttt.shinyapps.io/ps06_shinyapp_candicetttt/
-when: 1677885173.8013
-lastSyncTime: 1677885173.80131
+when: 1677967194.26101
+lastSyncTime: 1677967194.26103
 asMultiple: FALSE
 asStatic: FALSE

@@ -17,15 +17,15 @@ a <- read_csv("Numbers of threatened species by major groups of organisms (2000-
 
 
 ui <- fluidPage(
-  titlePanel("Past Years Threatened Animals"),
+  titlePanel("Past Years Threatened Species"),
   
   tabsetPanel(
     tabPanel(
       "About",
       mainPanel(
-        em("This app uses previous years threatened animals data from "),
+        em("This app uses previous years threatened species data from "),
         strong("IUCN"),
-        p("We have ", n_distinct(a$Year), "years of data for the threatened animals."),
+        p("We have ", n_distinct(a$Year), "years of data for the threatened species."),
         p("Numbers of threatened species by major groups of organisms"),
         p("Here is a small (random) sample of data:"),
         tableOutput("table")
@@ -36,7 +36,7 @@ ui <- fluidPage(
       "Plot",
       sidebarLayout(
         sidebarPanel(
-          p("You can analyze the threatened animals of different kinds. 
+          p("You can analyze the threatened species of different kinds. 
           Select the kind you are interested in. 
             You will see an anually plot and the corresponding trend lines."),
           selectInput("kind",
@@ -61,7 +61,7 @@ ui <- fluidPage(
       "Table",
       sidebarLayout(
         sidebarPanel(
-          p("This panel displays the data about threatened animals 
+          p("This panel displays the data about threatened species 
           over different groups of organisms: 
             vertebrates, invertebrates, plants, and fungi&protists"),
           radioButtons("choice","Choose an option:",
