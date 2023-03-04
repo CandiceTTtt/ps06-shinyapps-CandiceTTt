@@ -1,7 +1,7 @@
 # ps06-shinyapps-CandiceTTt
 
 
-In this app, I used Red List data for endangered species from 2000 to 2022. 
+In this app, I used Red List data by IUCN for threatened species from 2000 to 2022. 
 
 On the first page the user is first shown a brief introduction and a random portion of the data in general. 
 
